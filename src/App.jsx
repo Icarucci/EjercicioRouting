@@ -5,7 +5,7 @@
 
 function App(){
     return <h1>Ejercicio Api con libreria Axios</h1>
-    //npm install axios
+
 }
 
 export default App;
