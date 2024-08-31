@@ -9,12 +9,12 @@ const searchImages = async ()=>{
                 
         },        
                 params:{
-                    query:"Cats"
+                    query:"Soccer Sherseys"
                 }
                 
     });
 
-    console.log(response);
+    console.log(response.data.result);
 
 
 };
