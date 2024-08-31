@@ -15,6 +15,7 @@ const searchImages = async ()=>{
     });
 
     console.log(response.data.result);
+    return response.data.results
 
 
 };
