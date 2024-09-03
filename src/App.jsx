@@ -4,6 +4,8 @@ import SearchBar from "./components/SearchBar";
 import SearchImages from "./api";
 import { useState } from "react";
 import ImageList from "./components/ImageList";
+import { Nav }  from "./components/NavBar/NavBar";
+import { ItemListContainer }  from "./components/ItemListContainer";
 
 function App(){
     
@@ -16,7 +18,8 @@ function App(){
     
     return (
         <div>
-            <h1>Ejercicio Api con libreria Axios y SearchBar </h1>
+            <Nav></Nav>
+            <ItemListContainer greeting="¡Bienvenido a FCamisetas!"></ItemListContainer>
             <SearchBar enSubmit={handleSubmit}/>
             <ImageList images={img} />
         </div>
